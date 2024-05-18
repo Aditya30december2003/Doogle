@@ -13,8 +13,8 @@ function App() {
       <div className='flex h-screen'>
         <Left/>
         <Routes>
-          <Route path='/Doogle' element={<Right />} />
-          <Route path='/Doogle/dog/:dogId' element={<DogInfo />} />
+          <Route path='/' element={<Right />} />
+          <Route path='/dog/:dogId' element={<DogInfo />} />
         </Routes>
       </div>
     </>
